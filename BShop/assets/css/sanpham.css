@@ -1,0 +1,44 @@
+p.ten-sp {
+    font-size: 13px !important;
+    font-weight: 600;
+}
+
+p.ten-sp:hover {
+    font-size: 13px !important;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+h5.gia {
+    font-family: Roboto, "Helvetica Neue", sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 700;
+}
+
+a.sanpham-card {
+    color: rgb(10, 10, 10) !important;
+}
+
+div.giamgia {
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 10%;
+    background-color:#ff0000 !important;
+}
+
+div.banner {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 11rem;
+    background-color: rgb(0, 13, 33);
+    background-image: url(../img/banner.png);
+}
+
+.why-us .content-item span {
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    color: #6e83c0;
+}
