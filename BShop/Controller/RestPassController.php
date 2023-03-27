@@ -25,10 +25,14 @@ if (isset($_GET['act'])) {
                     $mail->SMTPAuth = true;
                     // GMAIL username to:
                     // $mail->Username 
-                    $mail->Username = "tamtestphp@gmail.com";
+			//place your email in there
+			//example tamtest@gmail.com
+                    $mail->Username = "";
                     // GMAIL password
                     // $mail->Password 
-                    $mail->Password = "rvzfkhlhgsowkgut";
+			//Place your password application in the after turn on 2-step verification google
+			//example "rvzfkhlhgsowkg"
+                    $mail->Password = "";
                     $mail->SMTPSecure = "tls";
                     // sets GMAIL as the SMTP server
                     $mail->Host = "smtp.gmail.com";
