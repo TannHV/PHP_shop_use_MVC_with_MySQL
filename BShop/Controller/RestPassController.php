@@ -31,7 +31,7 @@ if (isset($_GET['act'])) {
                     // GMAIL password
                     // $mail->Password 
 			//Place your password application in the after turn on 2-step verification google
-			//example "rvzfkhlhgsowkg"
+			//example "rvzfkhlhgsow"
                     $mail->Password = "";
                     $mail->SMTPSecure = "tls";
                     // sets GMAIL as the SMTP server
